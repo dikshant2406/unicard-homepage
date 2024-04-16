@@ -17,10 +17,10 @@ const MainContent = () => {
                     </span>
                 </h1>
                 <p className="leftInfoFooter">
-                    "1% Cashback | 5x Rewards | Zero Forex Markup"
+                    1% Cashback | 5x Rewards | Zero Forex Markup
                 </p>
                 <div className="Phone">
-                    <input type="tel"  value={phoneNo}  placeholder="Enter Phone Number" onChange={(e) => handleChange}/>
+                    <input type="tel"  value={phoneNo}  pattern="\d{3}[-.\s]?\d{3}[-.\s]?\d{4}" placeholder="Enter Phone Number" onChange={(e) => handleChange}/>
                     <div className="submit">
                         <span>Apply Now</span>
                     </div>
