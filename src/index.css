@@ -127,6 +127,8 @@ h1 span {
   height: 50px;
   border: none;
   cursor: text;
+  color: white;
+  font-size: 1rem;
 }
 .Phone input:focus {
   outline: none;

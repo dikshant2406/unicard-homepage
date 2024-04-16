@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 const MainContent = () => {
+
+    const [phoneNo, setPhoneNo] = useState() ;
+
+    const handleChange = (e) => {
+        setPhoneNo(e.target.value)
+    }
     return (
 
         <div className="InfoContainer">
@@ -14,7 +20,7 @@ const MainContent = () => {
                     "1% Cashback | 5x Rewards | Zero Forex Markup"
                 </p>
                 <div className="Phone">
-                    <input type="tel"  value=""  placeholder="Enter Phone Number" onChange/>
+                    <input type="tel"  value={phoneNo}  placeholder="Enter Phone Number" onChange={(e) => handleChange}/>
                     <div className="submit">
                         <span>Apply Now</span>
                     </div>
