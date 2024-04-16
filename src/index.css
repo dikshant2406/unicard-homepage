@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+ margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +7,154 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.app {
+  display: flex;
+  padding: 0 20px;
 }
+
+#backgroundVideo{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.check {
+  display: inline-flex;
+}
+
+.termsAndConditions {
+  display: flex;
+}
+
+.terms {
+  font-size: 8px;
+}
+
+.Topbar {
+  margin: 20px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  flex-direction: row;
+  position: absolute;
+  min-height: 20px;
+  z-index: 15;
+}
+
+.Topbar svg {
+  height: 100px;
+}
+
+.UniButton {
+  border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    color: white;
+    font-size: 100%;
+    right: 100px;
+    height: 45px;
+    width: 150px;
+    border-color: #E2E8F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.InfoContainer {
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightInfo {
+  margin-left: 10rem;
+}
+
+.rightInfo img {
+  height: 420px;
+  width: 420px;
+}
+
+.leftInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  z-index: 10;
+}
+
+span strong {
+  font-weight: bolder;
+}
+
+h1 span {
+  word-wrap: break-word;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Matter, sans-serif;
+  font-size: 72px;
+  line-height: 110%;
+  font-weight: 500;
+  letter-spacing: .2px;
+  text-transform: none;
+}
+
+.Phone {
+  background-color: black;
+  border-radius: 0.75rem;
+  display: flex;
+  padding-left: 0.5rem;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.Phone input {
+  background-color: inherit;
+  height: 50px;
+  border: none;
+  cursor: text;
+}
+.Phone input:focus {
+  outline: none;
+}
+.Phone input::placeholder {
+  height: 100%;
+}
+
+.submit {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: rgba(253,239,120,1);
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+/* 
+@media screen and (min-width: 48em) {
+  .Topbar {
+    padding: 0 45px;
+  }
+}
+
+
+@media screen and (min-width: 30em) {
+  .Topbar {
+    padding: 0 32px;
+}
+} */
+
