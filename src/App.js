@@ -6,8 +6,9 @@ import "./App.css";
 function App() {
 	return (
 		<>
-			<BgVideo />
+			
 			<div className="app">
+			<BgVideo />
 				<div className="body">
 					<Topbar />
 					<MainContent />
