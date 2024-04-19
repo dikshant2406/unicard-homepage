@@ -1,0 +1,124 @@
+
+  .InfoContainer {
+    margin-top: 200px;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap-reverse; */
+  }
+
+
+
+  .leftInfo {
+    padding-right: 1.5rem;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 10;
+    flex-direction: column;
+  }
+  
+  .rightInfo {
+    margin-left: 10rem;
+  }
+  
+  .rightInfo img {
+    height: 420px;
+    width: 420px;
+  }
+  
+  .leftTopInfo {
+   font-weight: 500;
+   font-size: 50px;
+  }
+
+  .leftTopInfoFooter {
+    font-weight: 100;
+    margin: 15px 0;
+  }
+
+  .leftBottomInfoFooter {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .Phone {
+    background-color: black;
+    border-radius: 0.75rem;
+    display: flex;
+    padding-left: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .Phone input {
+    background-color: inherit;
+    height: 50px;
+    border: none;
+    cursor: text;
+    color: white;
+    font-size: 1rem;
+  }
+  .Phone input:focus {
+    outline: none;
+  }
+  .Phone input::placeholder {
+    height: 100%;
+  }
+  
+  .submit {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      background-color: rgba(253,239,120,1);
+      margin: 0.25rem;
+      border-radius: 0.75rem;
+      font-weight: lighter;
+      font-size: 13px;
+  }
+
+  .check {
+    display: inline-flex;
+  }
+  
+  .termsAndConditions {
+    display: flex;
+  }
+  
+  .terms {
+    font-size: 10px;
+    font-weight: lighter;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .InfoContainer {
+     flex-direction: column-reverse;
+     align-items: left;
+    }
+
+    .rightInfo {
+      margin: 0;
+      margin-bottom: 50px;
+    }
+
+    .InfoContainer{
+      padding: 0 20px;
+    }
+
+      
+    .leftTopInfo {
+      font-weight: 100;
+      font-size: 25px;
+    }
+
+    .rightInfo img {
+      height: 240px;
+      width: 240px;
+    }
+  }

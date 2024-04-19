@@ -1,28 +1,15 @@
-import Topbar from "./Component/Topbar";
-import MainContent from "./Component/MainContent";
+import Topbar from "./Component/Topbar/Topbar";
+import MainContent from "./Component/MainContent/MainContent";
+import BgVideo from "./Component/BgVideo/BgVideo";
+import "./App.css";
 
 function App() {
 	return (
 		<>
-			<video
-				autoPlay
-				muted
-				loop
-				playsInline
-				id="backgroundVideo"
-				className="back-video"
-			>
-				<source
-					src="https://www.uni.cards/videos/nxt_wave_bg.mp4"
-					type="video/mp4"
-				/>
-				Your browser does not support HTML5 video.
-			</video>
+			<BgVideo />
 			<div className="app">
-				<div>
+				<div className="body">
 					<Topbar />
-				</div>
-				<div>
 					<MainContent />
 				</div>
 			</div>

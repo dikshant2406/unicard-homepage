@@ -1,0 +1,40 @@
+.Topbar {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 80px;
+    z-index: 15;
+    padding: 0 100px;
+  }
+  
+  .Topbar svg {
+    height: 90px;
+    width: 120px;
+  }
+  
+  .UniButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 15px 30px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    border: none;
+    font-size: 15px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .Topbar {
+      padding: 0 25px;
+    }
+
+    .UniButton {
+        display: none;
+    }
+  }
