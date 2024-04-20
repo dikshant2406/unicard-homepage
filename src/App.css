@@ -4,5 +4,11 @@
 }
 
 .body {
+    display: flex;
+    height: 100vh;
+}
 
+.SecondaryBody {
+    padding-top: 150px;
+    padding-bottom: 150px;
 }

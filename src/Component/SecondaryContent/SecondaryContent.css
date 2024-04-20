@@ -1,0 +1,118 @@
+.SectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 250px;
+}
+
+.SectionText {
+    font-weight: 500;
+    font-size: 40px;
+    min-width: 300px;
+}
+
+.greyFont {
+    color: #9ea7ae;
+}
+
+.greenArrowDown {
+    background: linear-gradient(140.86deg, #65ECD8 11.07%, #FDEF78 80.28%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0;
+}
+
+.greenArrowDown img {
+    height: 80px;
+    width: 80px;
+}
+
+.SectionTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 125px;
+}
+
+.SectionTwo img {
+    width: 448px;
+    margin-left: 50px;
+}
+
+.blackBoldText {
+    font-weight: 700;
+}
+
+.SectionText2 {
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.greyFontFooter {
+    font-weight: lighter;
+}
+
+.SectionThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 200px;
+}
+
+.SectionThree img {
+    width: 448px;
+    margin-right: 50px;
+}
+
+.SectionText3 {
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 40px;
+    
+}
+
+.SectionFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 175px;
+}
+
+.SectionFour img {
+    width: 448px;
+    margin-left: 150px;
+}
+
+.SectionText4 {
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SectionFive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    flex-direction: column;
+}
+
+.SectionText5 {
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
